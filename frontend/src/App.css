@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+.no-select {
+  user-select: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Preview.css */
+/* Preview.css */
+
+.laptop-frame {
+  position: relative;
+  width: 800px;
+  /* Adjust width as needed */
+  height: 500px;
+  /* Adjust height as needed */
+  background-color: #f0f0f0;
+  /* Laptop frame color */
+  border-radius: 20px;
+  /* Rounded corners for the laptop frame */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  /* Drop shadow for the laptop frame */
+  margin: 50px auto;
+  /* Center the laptop frame */
+  overflow: hidden;
+  /* Hide content outside the laptop frame */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.laptop-screen {
+  position: absolute;
+  top: 10%;
+  /* Adjust top position of the screen content */
+  left: 5%;
+  /* Adjust left position of the screen content */
+  width: 90%;
+  /* Adjust width of the screen content */
+  height: 80%;
+  /* Adjust height of the screen content */
+  background-color: white;
+  /* Screen background color */
+  overflow: hidden;
+  /* Disable scrolling within the screen */
 }
