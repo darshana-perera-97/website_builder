@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Design from "./Design/Design";
+import Pages from "./Pages";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
     //   </header>
     // </div>
     <div>
-      <Design />
+      {/* <Design /> */}
+      <Pages />
     </div>
   );
 }
