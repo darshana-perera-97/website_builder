@@ -8,7 +8,7 @@ export default function Domain() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('http://localhost:3000/submit', {
+      const res = await fetch('https://website-builder-backend.onrender.com/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
